@@ -1,0 +1,59 @@
+{
+  "name": "covid-19-site-template",
+  "description": "Starter Contentful Gatsby Blog",
+  "version": "1.0.0",
+  "author": "Contentful GmbH",
+  "bugs": {
+    "url": "https://github.com/contentful/covid-19-site-template"
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^13.4.0",
+    "gatsby-image": "^2.2.16",
+    "gatsby-plugin-postcss": "^2.1.21",
+    "gatsby-plugin-purgecss": "^4.0.1",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-source-contentful": "^2.1.97",
+    "gatsby-source-mathdroid-covid19": "^0.1.0",
+    "gatsby-transformer-remark": "^2.6.52",
+    "gatsby-transformer-sharp": "^2.3.14",
+    "lodash": "^4.17.15",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-flag-kit": "^0.3.1",
+    "react-helmet": "^5.2.1",
+    "react-seo-component": "^1.0.0",
+    "sharp": "^0.24.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "chalk": "^3.0.0",
+    "contentful-import": "^7.4.3",
+    "dotenv": "^8.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.3",
+    "gatsby": "^2.19.5",
+    "gh-pages": "^2.0.1",
+    "inquirer": "^7.0.4",
+    "prettier": "^1.17.0",
+    "rimraf": "^3.0.2",
+    "tailwindcss": "^1.2.0",
+    "yargs-parser": "^17.0.0"
+  },
+  "homepage": "https://github.com/contentful/covid-19-site-template",
+  "keywords": [
+    "gatsby",
+    "contentful"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contentful/covid-19-site-template.git"
+  },
+  "scripts": {
+    "setup": "node bin/setup",
+    "build": "node get-countries.js && gatsby build",
+    "develop": "node get-countries.js && gatsby develop"
+  }
+}
